@@ -1,5 +1,6 @@
 package com.kunal;
 
+// strings are immutable bcz of security reasons
 public class Main {
 
     public static void main(String[] args) {
@@ -9,8 +10,8 @@ public class Main {
 //        System.out.println(name);
 
         String a = "Kunal";
-        System.out.println(a);
-        a = "Kushwaha";
-        System.out.println(a);
+        System.out.println(a);    // prints Kunal
+        a = "Kushwaha";           // now a will point to diff object - kushwaha
+        System.out.println(a);   // prints kushwaha
     }
 }

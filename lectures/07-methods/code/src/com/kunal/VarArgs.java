@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class VarArgs {
     public static void main(String[] args) {
-//        fun();
-//        multiple(2, 3, "Kunal", "Rahul", "dvytsbhusc");
+//        fun();   prints an empty array
+//        multiple(2, 3, "Kunal", "Rahul", "dvytsbhusc");    
 //        demo();
     }
 
-    static void demo(int ...v) {
+    static void demo(int ...v) {  // allows us to take as many inputs as possible
         System.out.println(Arrays.toString(v));
     }
 
